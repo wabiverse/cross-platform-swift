@@ -32,7 +32,7 @@ let package = Package(
     // 🦦 stackotter's swift-cross-ui: https://github.com/stackotter/swift-cross-ui
     .package(url: "https://github.com/wabiverse/swift-cross-ui.git", branch: "main"),
     // 🎬 pixar's universal scene description (usd): https://openusd.org
-    .package(url: "https://github.com/wabiverse/SwiftUSD.git", branch: "main")
+    .package(url: "https://github.com/wabiverse/SwiftUSD.git", from: "24.8.12")
   ],
   targets: [
     // cross platform (macOS, Linux, Windows) ui app in swift.
@@ -53,5 +53,6 @@ let package = Package(
         .interoperabilityMode(.Cxx)
       ]
     ),
-  ]
+  ],
+  cxxLanguageStandard: .cxx17
 )
