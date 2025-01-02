@@ -17,6 +17,24 @@
       "name": "Release CrossUI",
       "program": "${workspaceFolder:cross-platform-swift}/.build/release/CrossUI",
       "preLaunchTask": "swift: Build Release CrossUI"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:cross-platform-swift}",
+      "name": "Debug CrossUSD",
+      "program": "${workspaceFolder:cross-platform-swift}/.build/debug/CrossUSD",
+      "preLaunchTask": "swift: Build Debug CrossUSD"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:cross-platform-swift}",
+      "name": "Release CrossUSD",
+      "program": "${workspaceFolder:cross-platform-swift}/.build/release/CrossUSD",
+      "preLaunchTask": "swift: Build Release CrossUSD"
     }
   ]
 }

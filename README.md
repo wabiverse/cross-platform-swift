@@ -16,10 +16,12 @@
 
 ##### **swift example projects**.
 
-##### [cross platform (**macOS**, **Linux**, **Microsoft**) **ui** app][summon-development-music].
+##### [cross platform (**macOS**, **Linux**, **Microsoft**) **ui** app][swift-cross-ui].
+##### [universal scene description (**usd**) in swift][swift-usd].
 
 <hr/>
 
 ###### *feeling **swifty**.*
 
-[summon-development-music]: Sources/CrossUI/CrossUI.swift
+[swift-cross-ui]: Sources/CrossUI/CrossUI.swift
+[swift-usd]: Sources/CrossUSD/CrossUSD.swift

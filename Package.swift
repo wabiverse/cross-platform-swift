@@ -26,7 +26,9 @@ let package = Package(
   ],
   dependencies: [
     // 🦦 stackotter's swift-cross-ui: https://github.com/stackotter/swift-cross-ui
-    .package(url: "https://github.com/wabiverse/swift-cross-ui.git", branch: "main")
+    .package(url: "https://github.com/wabiverse/swift-cross-ui.git", branch: "main"),
+    // 🎬 pixar's universal scene description (usd): https://openusd.org
+    .package(url: "https://github.com/wabiverse/SwiftUSD.git", branch: "main")
   ],
   targets: [
     // cross platform (macOS, Linux, Windows) ui app in swift.
@@ -35,6 +37,16 @@ let package = Package(
       dependencies: [
         .product(name: "SwiftCrossUI", package: "swift-cross-ui"),
         .product(name: uiBackend, package: "swift-cross-ui")
+      ]
+    ),
+    // universal scene description (usd) in swift.
+    .executableTarget(
+      name: "CrossUSD",
+      dependencies: [
+        .product(name: "PixarUSD", package: "SwiftUSD")
+      ],
+      swiftSettings: [
+        .interoperabilityMode(.Cxx)
       ]
     ),
   ]

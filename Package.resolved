@@ -1,6 +1,51 @@
 {
-  "originHash" : "5f1b65623f7eb79b7ca4d39a214d4bc4e00b19973092b2428954615b32bdbd41",
+  "originHash" : "faba5c48ca58480146a2b0b77061f3479d3b64e2fa01c68dc930cd90bb211520",
   "pins" : [
+    {
+      "identity" : "galah",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/wabiverse/galah.git",
+      "state" : {
+        "revision" : "49cd69c9af968c034b345e39956ad458ce9bd27d",
+        "version" : "1.0.2"
+      }
+    },
+    {
+      "identity" : "icu",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/wabiverse/icu.git",
+      "state" : {
+        "revision" : "07ddbe4cab45175e70b22ed05240bac5ec7e0421",
+        "version" : "76.1.2"
+      }
+    },
+    {
+      "identity" : "metaversekit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/wabiverse/MetaverseKit",
+      "state" : {
+        "revision" : "58cc425dadad8aa04d0e86de5e63c92143f1ee79",
+        "version" : "1.8.8"
+      }
+    },
+    {
+      "identity" : "metaversepythonframework",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/wabiverse/MetaversePythonFramework",
+      "state" : {
+        "revision" : "e2f4ba867b7e287a283a27a0005ab64deef14279",
+        "version" : "3.11.7"
+      }
+    },
+    {
+      "identity" : "metaversevulkanframework",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/wabiverse/MetaverseVulkanFramework",
+      "state" : {
+        "revision" : "13c7061599c61a4959c558d8ec1836e5b32b640b",
+        "version" : "1.26.2"
+      }
+    },
     {
       "identity" : "opencombine",
       "kind" : "remoteSourceControl",
@@ -8,6 +53,15 @@
       "state" : {
         "revision" : "8576f0d579b27020beccbccc3ea6844f3ddfc2c2",
         "version" : "0.14.0"
+      }
+    },
+    {
+      "identity" : "pythonkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/pvieito/PythonKit.git",
+      "state" : {
+        "revision" : "43647b36cacb99558e57ef98e97ef598f91d1164",
+        "version" : "0.5.0"
       }
     },
     {
@@ -19,12 +73,30 @@
       }
     },
     {
+      "identity" : "rainbow",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/onevcat/Rainbow.git",
+      "state" : {
+        "revision" : "626c3d4b6b55354b4af3aa309f998fae9b31a3d9",
+        "version" : "3.2.0"
+      }
+    },
+    {
+      "identity" : "swift-argument-parser",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-argument-parser",
+      "state" : {
+        "revision" : "41982a3656a71c768319979febd796c6fd111d5c",
+        "version" : "1.5.0"
+      }
+    },
+    {
       "identity" : "swift-cross-ui",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/wabiverse/swift-cross-ui.git",
       "state" : {
         "branch" : "main",
-        "revision" : "eb0e8bcfbacbc2a6968730280c9d336baf869682"
+        "revision" : "59343421c03908362f162f27ed8af9db6ce1bda0"
       }
     },
     {
@@ -37,21 +109,30 @@
       }
     },
     {
+      "identity" : "swift-log",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-log.git",
+      "state" : {
+        "revision" : "96a2f8a0fa41e9e09af4585e2724c4e825410b91",
+        "version" : "1.6.2"
+      }
+    },
+    {
       "identity" : "swift-macro-toolkit",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/stackotter/swift-macro-toolkit",
       "state" : {
-        "revision" : "2eded9c9a98cba42d70fb179d516231fffcff1e4",
-        "version" : "0.5.0"
+        "revision" : "e706aa98bc28f82677923f7b8f560bba6f90fac2",
+        "version" : "0.6.0"
       }
     },
     {
       "identity" : "swift-syntax",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/apple/swift-syntax.git",
+      "location" : "https://github.com/swiftlang/swift-syntax.git",
       "state" : {
-        "revision" : "2bc86522d115234d1f588efe2bcb4ce4be8f8b82",
-        "version" : "510.0.3"
+        "revision" : "0687f71944021d616d34d922343dcef086855920",
+        "version" : "600.0.1"
       }
     },
     {
@@ -100,6 +181,15 @@
       }
     },
     {
+      "identity" : "swiftusd",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/wabiverse/SwiftUSD.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "f276ed0318d501f26eb9a08d859d7593bd85e0b0"
+      }
+    },
+    {
       "identity" : "termkit",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/stackotter/TermKit",
@@ -114,6 +204,15 @@
       "state" : {
         "revision" : "7f3ed5b1d7288de34ad853544d802647be11cfcf",
         "version" : "0.3.0"
+      }
+    },
+    {
+      "identity" : "version",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mxcl/Version.git",
+      "state" : {
+        "revision" : "303a0f916772545e1e8667d3104f83be708a723c",
+        "version" : "2.1.0"
       }
     }
   ],
