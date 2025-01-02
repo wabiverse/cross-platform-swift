@@ -1,0 +1,121 @@
+{
+  "originHash" : "5f1b65623f7eb79b7ca4d39a214d4bc4e00b19973092b2428954615b32bdbd41",
+  "pins" : [
+    {
+      "identity" : "opencombine",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/OpenCombine/OpenCombine.git",
+      "state" : {
+        "revision" : "8576f0d579b27020beccbccc3ea6844f3ddfc2c2",
+        "version" : "0.14.0"
+      }
+    },
+    {
+      "identity" : "qlift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Longhanks/qlift",
+      "state" : {
+        "revision" : "ddab1f1ecc113ad4f8e05d2999c2734cdf706210"
+      }
+    },
+    {
+      "identity" : "swift-cross-ui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/wabiverse/swift-cross-ui.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "eb0e8bcfbacbc2a6968730280c9d336baf869682"
+      }
+    },
+    {
+      "identity" : "swift-cwinrt",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/thebrowsercompany/swift-cwinrt",
+      "state" : {
+        "branch" : "main",
+        "revision" : "3e3d5a0270ebe8fb0bc738d24d4786a6cd0621eb"
+      }
+    },
+    {
+      "identity" : "swift-macro-toolkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/stackotter/swift-macro-toolkit",
+      "state" : {
+        "revision" : "2eded9c9a98cba42d70fb179d516231fffcff1e4",
+        "version" : "0.5.0"
+      }
+    },
+    {
+      "identity" : "swift-syntax",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-syntax.git",
+      "state" : {
+        "revision" : "2bc86522d115234d1f588efe2bcb4ce4be8f8b82",
+        "version" : "510.0.3"
+      }
+    },
+    {
+      "identity" : "swift-uwp",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/thebrowsercompany/swift-uwp",
+      "state" : {
+        "branch" : "main",
+        "revision" : "4fe2fa05652f688ba5af57d0ce9e93961f6dea98"
+      }
+    },
+    {
+      "identity" : "swift-windowsappsdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/wabiverse/swift-windowsappsdk",
+      "state" : {
+        "branch" : "main",
+        "revision" : "36e2f6c261fcbffc303c107b24f705605f3908be"
+      }
+    },
+    {
+      "identity" : "swift-windowsfoundation",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/thebrowsercompany/swift-windowsfoundation",
+      "state" : {
+        "branch" : "main",
+        "revision" : "dbe14563b6bb0eb9c761d8aff7f465afddf185f9"
+      }
+    },
+    {
+      "identity" : "swift-winui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/wabiverse/swift-winui",
+      "state" : {
+        "branch" : "main",
+        "revision" : "0529457d9f360904b2009fd67cba90046ff252c4"
+      }
+    },
+    {
+      "identity" : "swiftterm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/migueldeicaza/SwiftTerm.git",
+      "state" : {
+        "revision" : "e2b431dbf73f775fb4807a33e4572ffd3dc6933a",
+        "version" : "1.2.5"
+      }
+    },
+    {
+      "identity" : "termkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/stackotter/TermKit",
+      "state" : {
+        "revision" : "163afa64f1257a0c026cc83ed8bc47a5f8fc9704"
+      }
+    },
+    {
+      "identity" : "textbufferkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/migueldeicaza/TextBufferKit.git",
+      "state" : {
+        "revision" : "7f3ed5b1d7288de34ad853544d802647be11cfcf",
+        "version" : "0.3.0"
+      }
+    }
+  ],
+  "version" : 3
+}

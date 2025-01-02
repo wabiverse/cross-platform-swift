@@ -1,0 +1,22 @@
+format_version = 2
+
+[projects.CrossUI]
+source = 'git(https://github.com/wabiverse/cross-platform-swift.git)'
+revision = 'main'
+
+[projects.CrossUI.products.CrossUI]
+type = 'executable'
+
+[projects.CrossUI.builder]
+name = 'Package.swift'
+type = 'wholeProject'
+api = 'revision(main)'
+
+[apps.CrossUI]
+identifier = 'foundation.wabi.CrossUI'
+product = 'CrossUI'
+version = '1.0.0'
+category = 'public.app-category.graphics-design'
+
+[apps.CrossUI.plist]
+commit = '$(COMMIT_HASH)'
