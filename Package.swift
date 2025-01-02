@@ -23,6 +23,10 @@ let package = Package(
       name: "CrossUI",
       targets: ["CrossUI"]
     ),
+    .executable(
+      name: "CrossUSD",
+      targets: ["CrossUSD"]
+    ),
   ],
   dependencies: [
     // 🦦 stackotter's swift-cross-ui: https://github.com/stackotter/swift-cross-ui
